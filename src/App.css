@@ -1,0 +1,46 @@
+
+.App{
+    width: 100vw;
+    height: 100vh;
+    padding: 2.5rem;
+}
+
+.dark_bg{
+    background-color: #212121;
+    transition: all ease 0.5s;
+    color: #eee;
+}
+
+.light_bg{
+    background-color: #eee;
+    transition: all ease 0.5s;
+    color: #212121; 
+}
+
+.switch_theme_btn{
+    padding: 0.75rem 1.5rem;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    background-color: #288aeb;
+    color: #eef;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.switch_theme_btn:hover{
+    background-color: #eb3828;
+}
+
+.content{
+    width: 80%;
+    height: 50%;
+    margin: 2rem auto;
+}
+
+.content p{
+    font-size: 1.4rem;
+}
